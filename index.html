@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Stock Ticker App | Beastrom</title>
+</head>
+<body>
+    <div><h1>Stock Search</h1></div>
+    <div>
+        <form action="/process" method="GET">
+                <label for="searchInput">Enter symbol or company name:</label><br>
+                <input type="text" id="searchInput" name="searchInput"><br><br>
+        
+                <label>Search type:</label><br>
+                <input type="radio" id="ticker" name="searchType" value="ticker">
+                <label for="ticker">Search By Ticker Symbol</label><br>
+                <input type="radio" id="company" name="searchType" value="company">
+                <label for="company">Search By Company Name</label><br><br>
+        
+                <button type="submit">Search</button>
+            </form>
+    </div>
+    
+</body>
+</html>

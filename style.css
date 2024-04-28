@@ -1,0 +1,22 @@
+/* styles.css */
+
+/* Body styles */
+body {
+        background-color: lavender; /* Set background color to lavender */
+        justify-content: center; /* Center content horizontally */
+        align-items: center; /* Center content vertically */
+        height: 100vh; /* Take full height of the viewport */
+    }
+    
+    /* Form styles */
+    form {
+        background-color: lightblue; /* Set form background color to light blue */
+        padding: 20px; /* Add padding to the form */
+        border-radius: 10px; /* Add border radius for rounded corners */
+    }
+    
+    /* Optional: Heading styles */
+    h1 {
+        text-align: center; /* Center align the heading */
+    }
+    
